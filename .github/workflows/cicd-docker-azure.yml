@@ -3,6 +3,8 @@ on:
   push:
      # Au push sur quelle branche doit s'exécuter ce workflow
     branches: [ toAzure ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 env:
   AZURE_WEBAPP_NAME: my-app-devops # Indiquer le nom de votre web app

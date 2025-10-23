@@ -10,7 +10,7 @@ env:
   AZURE_WEBAPP_NAME: my-app-devops # Indiquer le nom de votre web app
   TAG: 1.0 # Le numéro du tag
   AZURE_WEBAPP_PACKAGE_PATH: ${{ github.workspace }} # Définir le chemin d'accès à la web app.
-  JAVA_VERSION: 17 # Définir la verison de Java
+  JAVA_VERSION: 17 # Définir la verison de Java 
 
 jobs:
   build-and-deploy:
